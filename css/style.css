@@ -803,6 +803,7 @@ h2 {
     height: auto;
     border-radius: 20px;
     display: block;
+    image-orientation: from-image;
 }
 
 .about-title h2 {
