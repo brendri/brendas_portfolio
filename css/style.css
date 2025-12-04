@@ -777,11 +777,13 @@ h2 {
     font-size: 29px;
     font-weight: 600;
     margin-bottom: 0;
+    text-align: center;
 }
 .about-header h2 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 6px;
+    text-align: center;
 }
 
 .about-header .header-content {
@@ -803,7 +805,7 @@ h2 {
     height: auto;
     border-radius: 20px;
     display: block;
-    image-orientation: from-image;
+    image-orientation: from-image; 
 }
 
 .about-title h2 {
