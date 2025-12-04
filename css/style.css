@@ -1792,6 +1792,14 @@ h2 {
         height: auto;
     }
 
+    .about-header h1 {
+        text-align: left;
+    }
+
+    .about-header h2 {
+        text-align: left;
+    }
+
     .about-title {
         grid-column: 2;
         grid-row: 1;
