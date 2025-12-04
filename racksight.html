@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- From w3schools.com -->
+    <title>RackSight Project</title>
+</head>
+<body>
+  <header>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class = "container-header">
+      <div class = "logo">
+        <a href = "main.html"><img src="imgs/logo.jpg" alt="Brenda's initials B.E Logo"></a>
+      </div>
+      <nav class = "nav">
+        <ul>
+          <li><a href = "main.html">Work</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a href = "https://drive.google.com/file/d/1WGuYTwbDxS-HWBgLgwTlTi3_8T_lz37J/view?usp=sharing" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Mobile hamburger icon-->
+  <button class = "icon" onclick = "toggleMenu()" aria-label="Toggle navigation menu">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <main id="main">
+    <!-- Main content goes here -->
+     <section class = "project-header">
+        <div class = "project-wrapper">
+            <div class = "project-content">
+                <div class = "project-image">
+                    <img src="imgs/header-RS.png" alt="RackSight wireframes">
+                </div>
+                <h1> <span class="project4-name">RackSight</span>: Where equipment makes sense and every workout shared</h1>
+                <div class = "detail-grid">
+                    <div class = "detail-item">
+                        <h3>Discipline</h3>
+                        <p>Interaction Design, Product Design</p>
+                    </div>
+                    <div class = "detail-item">
+                        <h3>Timeline</h3>
+                        <p>January - March 2024</p>
+                    </div>
+                    <div class = "detail-item">
+                        <h3>Context</h3>
+                        <p>Project for SI 311 @UMich</p>
+                    </div>
+                    <div class = "detail-item">
+                        <h3>Role</h3>
+                        <p>UX Researcher & Designer</p>
+                    </div>
+                    <div class = "detail-item">
+                        <h3>Tools</h3>
+                        <p>Figma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <section class = "summary">
+        <div class = "summary-content">
+            <h2>Summary</h2>
+            <div class = "summary-text">
+                <h3>About RackSight</h3>
+                <p>RackSight is a mobile app that offers personalized recommendations, featuring a scanning tool that provides detailed information about gym equipment and videos for visual guidance. Additionally, its social feed creates a supportive gym community where users can share content, ask questions, and engage in workouts together.</p>
+
+                <h3>Problem</h3>
+                <p>There is a lack of accessible, organized content for beginners to effectively learn and implement proper workout techniques. Fitness apps often fall short of providing the specific features needed, making it difficult to track progress and understand machine instructions, leaving users frustrated and uncertain.</p>
+
+                <h3>Our Solution</h3>
+                <p>To address this, I've developed RackSight—a mobile app that provides personalized guidance, detailed machine scanning, and a supportive social community to help users seamlessly navigate their fitness journeys.</p>
+            </div>
+        </div>
+     </section>
+     <section class = "investigation">
+        <div class = "investigation-title">
+            <h2>Investigating the Problem</h2>
+            <div class = "investigation-content">
+                <h3><span class = "project4-name">Started with an Interview Analysis</span></h3>
+                <div class = "investigation-text">
+                    <p>I conducted brief interviews with 2-3 individuals who showcased their gym styles in person, which helped me gain a deeper understanding of the challenges they faced as both beginners and intermediate gym-goers. </p><br>
+
+                    <p>In my analysis, I found some common key themes and insights, such as…</p>
+                    <ul>
+                        <li><strong>Accessibility and Affordability:</strong> The cost of fitness apps and subscriptions poses a financial barrier, limiting access to resources for all users.</li>
+                        <li><strong>Personalized Approaches:</strong> Without guidance, users struggle to understand what works best for their fitness goals, contributing to inconsistency.</li>
+                        <li><strong>Instructional Support:</strong> Users find machine instructions unhelpful, and some machines lack instructions altogether, discouraging exploration and motivation..</li>
+                        <li><strong>Tracker:</strong> There is a lack of consistency in tracking everyday activities when working out, leading to stagnation and random workouts.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class = "investigation-content">
+                <h3><span class = "project4-name">Creating Personas</span></h3>
+                <div class = "investigation-text">
+                    <p>I selected 2 individuals from my brief interviews, representing both beginner and intermediate levels. The insights gained from these interviews allowed me to synthesize key takeaways into two representative personas, Amanda Lynn and Juan Estrada, each reflecting their distinct challenges and unique goals.</p>
+                </div>
+                <div class = "persona-images">
+                    <img src="imgs/per1.png" alt="Persona of Amanda Lynn">
+                </div>
+                <div class = "persona-images">
+                    <img src="imgs/per2.png" alt="Persona of Juan Estrada">
+                </div>              
+        </div>
+        <div class = "investigation-content">
+                <h3><span class = "project4-name">Exploring Scenarios</span></h3>
+                <div class = "investigation-text">
+                    <ol>
+                        <li><strong>Amanda Lynn struggles to establish a consistent gym routine due to her busy college schedule and lack of experience with machine-based equipment.</strong><br> <i>RackSight helps Amanda by providing personalized workout recommendations, tracking her progress, offering machine scanning for proper form, and connecting her with a supportive social community for guidance and motivation.</i></li>
+                        <li><strong>Juan Estrada struggles with maintaining a consistent workout schedule, tracking his progress, and effectively using gym machines due to a lack of clear instructions and understanding of their capabilities.</strong><br> <i>RackSight supports Juan by helping him maintain a consistent workout routine with detailed tracking of his progress. The app provides machine scanning to better understand each machine's capabilities and offers personalized guidance to enhance his fitness journey.</i></li> 
+                    </ol>
+                </div>           
+        </div>
+     </section>
+      <section class = "shape-design">
+        <div class = "shape-title">
+            <h2>Shaping the Design</h2>
+            <div class = "shape-content">
+                <h3><span class = "project4-name">User Flows</span></h3>
+                <div class = "shape-text">
+                    <p>After collecting all the data, paper design flows were used for quick iteration, which were later transformed into more detailed digital versions with multiple screens and interactions. These user flows helped outline the user's journey through the product, ensuring smooth transitions between lo-fi and hi-fi prototyping.</p>
+                </div>
+                <div class = "diagram-image">
+                    <img src="imgs/dia1-RS.png" alt="RackSight User Flow Diagram">
+                </div>
+            </div>
+            <div class = "shape-content">
+                <h3><span class = "project4-name">Design System</span></h3>
+                <div class = "shape-text">
+                    <p>The design system for RackSight began by coordinating color contrasts and text sizes to effectively communicate the app's purpose. The focus was on creating a progression of interactive elements that highlighted key details such as icons and controls.</p>
+                </div>
+                <div class = "design-image">
+                    <img src="imgs/SG-RS.png" alt="Racksight Style Guide">
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class = "final-design">
+        <div class = "final-title">
+            <h2>Key Design Features</h2>
+            <div class = "final-content">
+                <h3><span class = "project4-name">Machine Scanner</span></h3>
+                <div class = "final-text">
+                    <p>Effortlessly scans gym equipment to identify targeted muscles, showcasing detailed information and providing visual guidance for proper usage.</p>
+                </div>
+                <div class = "video-container">
+                    <video controls muted preload = "metadata" aria-label="RackSight High Fidelity Prototype for machine scanner">
+                        <source src="vids/RS1.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RS1.mp4">Download the video here.</a>
+                    </video>
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project4-name">Intuitive Search Bar</span></h3>
+                <div class = "final-text">
+                    <p>Easily navigates with keywords like "cable" to provide information and demonstrations on various ways to use cable machines effectively.</p>
+                </div>
+                <div class = "video-container">
+                    <video controls muted preload = "metadata" aria-label="RackSight High Fidelity Prototype for search bar">
+                        <source src="vids/RS2.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RS2.mp4">Download the video here.</a>
+                    </video>
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project4-name">Customized Homepage</span></h3>
+                <div class = "final-text">
+                    <p>Delivers a personalized experience based on onboarding preferences, redirecting users to an information page that showcases diverse workout concepts and detailed guidance.</p>
+                </div>
+                <div class = "video-container">
+                    <video controls muted preload = "metadata" aria-label="RackSight High Fidelity Prototype for customized homepage">
+                        <source src="vids/RS3.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RS3.mp4">Download the video here.</a>
+                    </video>
+                </div>  
+            </div>                         
+        </div>
+      </section>
+      <section class = "final-prototype">
+        <div class = "final-title">
+            <h2>High-Fidelity Prototype</h2>
+            <div class = "final-content">
+                <div class = "video-container2">
+                    <video controls muted preload = "metadata" aria-label="RackSight High Fidelity Prototype for">
+                        <source src="vids/RS-full.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RRD1.mp4">Download the video here.</a>
+                    </video>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class = "learnings">
+        <div class = "learning-title">
+            <h2>Learnings</h2>
+            <div class = "learning-content">
+                <p> <strong>First Steps</strong></p>
+                <p>For my first solo design of an app, I learned the importance of planning carefully, staying organized, and being open to feedback to make the design better.</p><br>
+
+                <p><strong>Storyline</strong></p>
+                <p>When creating an app designed to persuade the audience it will benefit them, I learned to use my personal experience to give the app a relatable storyline and scenario, making it more engaging.</p>
+            </div>
+        </div> 
+      </section>
+      <section class = "more-projects">
+            <h2>You may also like..</h2>
+            <div class = "more-projects-grid">
+                <a href = "roosroast.html" class = "more-project-card"> 
+                    <img src="imgs/header-RR.png" alt = "Roo's Roast Logo Thumbnail" class = "more-project-image">
+                </a>
+                <a href = "evendoor.html" class = "more-project-card"> 
+                    <img src="imgs/header-ED.png" alt = "EvenDoor Thumbnail" class = "more-project-image"> 
+                </a>
+            </div>
+      </section>
+  </main>
+
+  <footer>
+    <div class = "footer-container">
+
+      <div class = "footer-text">
+        <p>Let's stitch our vision together!</p>
+      </div>
+
+      <div class = "footer-year">
+        <p>Designed by Brenda Esquivel • <span id="year"></span></p>
+      </div>
+
+      <div class = "social-media">
+        <!--LinkedIn-->
+        <a href="www.linkedin.com/in/brenda-esquivel-rivera-4b8a35223" target="_blank" aria-label="LinkedIn" class="fa fa-linkedin-square"></a>
+        <!--Gmail-->
+        <a href="https://mail.google.com/mail/u/0/#search/brendri%40umich.edu" target="_blank" aria-label="Gmail" class="fa fa-envelope"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Menu overlay-->
+  <div class = "overlay" id = "overlay" onclick = "toggleMenu()">
+  </div>
+
+  <!--Side menu-->
+  <div class = "side-menu" id = "sideMenu">
+    <button class = "close-btn" onclick = "toggleMenu()" aria-label="Close navigation menu">
+      <i class="fa fa-times"></i>
+    </button>
+    <nav>
+      <a href = "main.html">Work</a>
+      <a href = "about.html">About</a>
+      <a href = "https://drive.google.com/file/d/1WGuYTwbDxS-HWBgLgwTlTi3_8T_lz37J/view?usp=sharing" target="_blank">Resume</a>
+    </nav>
+  </div>
+
+  <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+
+        function toggleMenu() {
+            const overlay = document.getElementById("overlay");
+            const sideMenu = document.getElementById("sideMenu");
+            const body = document.body;
+            
+            sideMenu.classList.toggle("active");
+            overlay.classList.toggle("active");
+            body.classList.toggle("menu-open");
+        }
+  </script>
+    
+</body>
+</html>
+
+
+
+<!-- video contrainer taken from UMGPT with the prompt, "How can I connect my video to the html and allow users to pause and play it? Also muting it." UMGPT. (2025). UMGPT ( GPT-4.1 August 25th version) [Large language model]. -->
+
+<!-- For the navigation menu taken from UMGPT with the prompt, "How can I create a navigation menu for a website and mobile design?" UMGPT. (2025). UMGPT ( GPT-4.1 August 25th version) [Large language model]. -->

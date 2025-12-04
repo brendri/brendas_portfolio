@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- From w3schools.com -->
+    <title>Evendoor</title>
+</head>
+<body>
+  <header>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class = "container-header">
+      <div class = "logo">
+        <a href = "main.html"><img src="imgs/logo.jpg" alt="Brenda's initials B.E Logo"></a>
+      </div>
+      <nav class = "nav">
+        <ul>
+          <li><a href = "main.html">Work</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a href = "https://drive.google.com/file/d/1WGuYTwbDxS-HWBgLgwTlTi3_8T_lz37J/view?usp=sharing" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Mobile hamburger icon-->
+  <button class = "icon" onclick = "toggleMenu()" aria-label="Toggle navigation menu">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <main id="main">
+    <!-- Main content goes here -->
+     <section class = "project-header">
+        <div class = "project-wrapper">
+        <div class = "project-content">
+            <div class = "project-image">
+            <img src="imgs/header-ED.png" alt="Evendoor mobile screens">
+        </div>
+            <h1> <span class="project2-name">Evendoor</span>: Bridging Small Businesses and Events for Seamless Growth</h1>
+            <div class = "detail-grid">
+                <div class = "detail-item">
+                    <h3>Discipline</h3>
+                    <p>User Research, Prototyping, Interaction Design, Product Design</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Timeline</h3>
+                    <p>August - December 2024</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Context</h3>
+                    <p>Project for SI 482 @UMich</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Role</h3>
+                    <p>UX Researcher & Designer</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Team</h3>
+                    <ul class ="team-list">
+                        <li>Sana Hashmi</li>
+                        <li>Terri Kang</li>
+                        <li>Selena Sun</li>
+                        <li>Siyu Zhong</li>
+                    </ul>
+                </div>
+                <div class = "detail-item">
+                    <h3>Tools</h3>
+                    <p>Figma, Miro</p>
+                </div>
+            </div>
+        </div>
+        </div>
+     </section>
+     <section class = "summary">
+        <div class = "summary-content">
+            <h2>Summary</h2>
+            <div class = "summary-text">
+                <h3>About Evendoor</h3>
+                <p>Evendoor is an app designed to connect event organizers with small business owners, offering a centralized hub that simplifies the process of discovering opportunities. It acts as a seamless connection point for networks that are typically decentralized and require significant effort to find.</p>
+
+                <h3>Problem</h3>
+                <p>There is an information gap between small business owners and event organizers, making it challenging to connect. The complex, time-consuming search process can be overwhelming and hinder collaboration.</p>
+
+                <h3>Our Solution</h3>
+                <p>To address this, we created Evendoor—an app that empowers small business owners to expand as vendors while helping event organizers easily host successful, well-organized events.</p>
+            </div>
+        </div>
+     </section>
+     <section class = "investigation">
+        <div class = "investigation-title">
+            <h2>Investigating the Problem</h2>
+            <div class = "investigation-content">
+                <h3><span class = "project2-name">Started with an Interview Analysis</span></h3>
+                <div class = "investigation-text">
+                    <p>I conducted interviews with 2-3 diverse small business owners via Zoom, which helped me gain a deeper understanding of their unique challenges, operational methods, and the tools they use to manage and grow their businesses.</p><br>
+
+                    <p>In my analysis, I found some common key themes and insights, such as:</p>
+                    <ul>
+                        <li><strong>Community Engagement:</strong> Businesses rely on both digital and in-person connections, emphasizing the need for tools that support flexible engagement.</li>
+                        <li><strong>Traditional vs. Digital Tools:</strong> Diverse operational methods highlight the importance of accommodating both traditional and digital workflows for accessibility.</li>
+                        <li><strong>Workflow Strategies:</strong> Effective tools like scheduling, inventory management, and order tracking are essential to support varied business operations.</li>
+                        <li><strong>Technology Design:</strong> A user-friendly platform should integrate features like digitizing workflows, communication tools, and flexible scheduling to enhance efficiency and community engagement.</li>
+                    </ul>
+            </div>
+        </div>
+        <div class = "investigation-content">
+                <h3><span class = "project2-name">Creating Personas</span></h3>
+                <div class = "investigation-text">
+                    <p>We selected 4 individuals from our interviews, including both event organizers and small business owners. Through collaborative exploration of themes and insights, we synthesized key takeaways into representative personas, Ellie Hansen and Mei Ling Chen, highlighting their distinct challenges and unique goals.</p>
+                </div>
+                <div class = "persona-images">
+                    <img src="imgs/persona1.jpg" alt="Evendoor Event Organizer Persona Ellie Hansen">
+                    <img src="imgs/person2.jpg" alt="Evendoor Small Business Owner Persona Mei Ling Chen">
+                </div>
+        </div>
+        <div class = "investigation-content">
+                <h3><span class = "project2-name">Exploring Scenarios</span></h3>
+                <div class = "investigation-text">
+                    <ol>
+                        <li><strong>Mei Ling Chen struggles to manage event schedules and customer interactions for her small bakery, UM Sweet, while balancing her family responsibilities.</strong><br> <i>Event Hub helps Mei Ling Chen streamline her event management by centralizing scheduling, providing easy access to event registrations, and offering automatic reminders for deadlines, allowing her to focus more on her bakery and less on logistics.</i></li>
+                        <li><strong>Ellie  struggles with establishing a firm line of communication and finding popular vendors to participate in the fair.</strong><br> <i>Evendoor helps Ellie streamline her vendor outreach by connecting her directly with small businesses and providing a platform for clear, efficient communication.</i></li>
+                        <li><strong>Marcus struggles to promote his sports vintage shop and connect with the Detroit community until he discovers Event Hub, which helps him find and register for local events.</strong><br> <i>Event Hub helps Marcus easily discover and register for local sports events, allowing him to connect with the Detroit community and promote his vintage sports shop.</i></li>
+                    </ol>
+                </div>
+        </div>
+     </section>
+      <section class = "shape-design">
+        <div class = "shape-title">
+            <h2>Shaping the Design</h2>
+            <div class = "shape-content">
+                <h3><span class = "project2-name">User Flows</span></h3>
+                <div class = "shape-text">
+                    <p>After collecting all the data, paper design flows were used for quick iteration, which were later transformed into more detailed digital versions with multiple screens and interactions. These user flows helped outline the user's journey through the product, ensuring smooth transitions between lo-fi and hi-fi prototyping.</p>
+                </div>
+                <div class = "flow-images">
+                    <img src="imgs/Dia-ED.jpg" alt="Evendoor User Flow Sketches">
+                    <img src="imgs/flow-ED.jpeg" alt="Evendoor User Flow Digital">
+                </div>
+        </div>
+        <div class = "shape-content">
+                <h3><span class = "project2-name">Sketches</span></h3>
+                <div class = "shape-text">
+                    <p>Sketches, similar to paper diagrams, were created quickly to generate a variety of ideas in a short period. None of these drawings were intended to be perfect, as many readings emphasize that they don't need to be exceptional.</p>
+                </div>
+                <div class = "sketch-images">
+                    <img src="imgs/sketch1.png" alt="Sketches of possible design features">
+                    <img src="imgs/sketch2.png" alt="Sketches of possible design features">
+                </div>
+        </div>
+        <div class = "shape-content">
+                <h3><span class = "project2-name">Lo-Fi Wireframes</span></h3>
+                <div class = "shape-text">
+                    <p>Ideas and flows were transitioned into Figma as a low-fidelity version. Throughout the development process, feedback from peers and usability testing revealed several navigation issues.</p>
+                </div>
+                <div class = "lofi-images">
+                    <img src="imgs/lofi1.png" alt="Evendoor Low Fidelity Wireframe 1">
+                    <img src="imgs/lofi2.png" alt="Evendoor Low Fidelity Wireframe 2">
+                </div>
+        </div>
+      </section>
+      <section class = "final-design">
+        <div class = "final-title">
+            <h2>Final Design</h2>
+            <div class = "final-content">
+                <h3><span class = "project2-name">Onboarding</span></h3>
+                <div class = "final-text">
+                    <p>Small businesses can start using Evendoor by completing a Vendor Application, which distinguishes them as independent entities while events are treated as time-bound. The application remains editable throughout their time on the platform, allowing vendors to update their information as needed.</p>
+                </div>
+                <div class = "hifi-images">
+                    <img src="imgs/hifi1.png" alt="Evendoor High Fidelity Prototype 1">
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project2-name">Design Flow - For Small Businesses</span></h3>
+                <div class = "final-text">
+                    <p>SBOs use a tailored interface with advanced filters for targeted event searches, viewing key details and options to apply, favorite, or explore similar events.</p>
+                </div>
+                <div class = "hifi-images">
+                    <img src="imgs/hifi2.png" alt="Evendoor High Fidelity Prototype 2">
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project2-name">Design Flow - For Small Businesses</span></h3>
+                <div class = "final-text">
+                    <p>The Calendar feature organizes events as "Saved" or "Registered," providing detailed information and simplifying event management for SBOs.</p>
+                </div>
+                <div class = "hifi-images">
+                    <img src="imgs/hifi3.png" alt="Evendoor High Fidelity Prototype 3">
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project2-name">Design Flow - For Event Organizers</span></h3>
+                <div class = "final-text">
+                    <p>Event Organizers (EOs) use a tailored interface with filters to refine searches by categories like food, offering a carousel view for quick browsing and flexible search options.</p>
+                </div>
+                <div class = "hifi-images">
+                    <img src="imgs/hifi4.png" alt="Evendoor High Fidelity Prototype 4">
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project2-name">Design Flow - For Event Organizers</span></h3>
+                <div class = "final-text">
+                    <p>The Calendar helps Event Organizers (EOs) track and manage events by categorizing them as "Posted" or "Achieved." EOs can view event details and use the Recruited Vendors List to track vendor invitations and responses, including accepted, declined, and pending.</p>
+                </div>
+                <div class = "hifi-images">
+                    <img src="imgs/hifi5.png" alt="Evendoor High Fidelity Prototype 5">
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class = "final-prototype">
+        <div class = "final-title">
+            <h2>High-Fidelity Prototype</h2>
+            <div class = "video-grid">
+                <div class = "video-item">
+                    <h3><span class = "project2-name">Small Businesses</span></h3>
+                    <div class = "video-container">
+                        <video controls preload = "metadata" aria-label="Evendoor High Fidelity Prototype for Small Businesses">
+                            <source src="vids/SB1.mp4" type="video/mp4">
+                            Your browser does not support the video tag. <a href ="vids/SB1.mp4">Download the video here.</a>
+                        </video>
+                    </div>
+                </div>
+                <div class = "video-item">
+                    <h3><span class = "project2-name">Event Organizer</span></h3>
+                    <div class = "video-container">
+                        <video controls preload = "metadata" aria-label="Evendoor High Fidelity Prototype for Event Organizers">
+                            <source src="vids/EO1.mp4" type="video/mp4">
+                            Your browser does not support the video tag. <a href ="vids/EO1.mp4">Download the video here.</a>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class = "learnings">
+        <div class = "learning-title">
+            <h2>Learnings</h2>
+            <div class = "learning-content">
+                <p> <strong>Iteration = Value</strong></p>
+                    <p>I learned the importance of iteration by understanding how consistently testing ideas, gathering feedback, and refining designs help better meet user needs. It taught me the value of adaptability and the need to embrace feedback as a crucial part of the design process to create more intuitive and user-centered solutions.</p><br>
+
+                <p><strong>Teamwork Makes the Design Work</strong></p>
+                <p>I learned the importance of collaboration skills. It is essential to consistently update on changes and remain open to new ideas. By fostering stronger collaboration through team discussions, feedback sessions, and recognizing how diverse perspectives enhance the design process.</p>
+            </div>
+        </div> 
+      </section>
+      <section class = "more-projects">
+            <h2>You may also like..</h2>
+            <div class = "more-projects-grid">
+                <a href = "racksight.html" class = "more-project-card"> 
+                    <img src="imgs/header-RS.png" alt = "Racksight Thumbnail" class = "more-project-image">
+                </a>
+                <a href = "roosroast.html" class = "more-project-card"> 
+                    <img src="imgs/header-RR.png" alt = "RoosRoast Coffee Thumbnail" class = "more-project-image"> 
+                </a>
+            </div>
+      </section>
+  </main>
+
+  <footer>
+    <div class = "footer-container">
+
+      <div class = "footer-text">
+        <p>Let's stitch our vision together!</p>
+      </div>
+
+      <div class = "footer-year">
+        <p>Designed by Brenda Esquivel • <span id="year"></span></p>
+      </div>
+
+      <div class = "social-media">
+        <!--LinkedIn-->
+        <a href="www.linkedin.com/in/brenda-esquivel-rivera-4b8a35223" target="_blank" aria-label="LinkedIn" class="fa fa-linkedin-square"></a>
+        <!--Gmail-->
+        <a href="https://mail.google.com/mail/u/0/#search/brendri%40umich.edu" target="_blank" aria-label="Gmail" class="fa fa-envelope"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Menu overlay-->
+  <div class = "overlay" id = "overlay" onclick = "toggleMenu()">
+  </div>
+
+  <!--Side menu-->
+  <div class = "side-menu" id = "sideMenu">
+    <button class = "close-btn" onclick = "toggleMenu()" aria-label="Close navigation menu">
+      <i class="fa fa-times"></i>
+    </button>
+    <nav>
+      <a href = "main.html">Work</a>
+      <a href = "about.html">About</a>
+      <a href = "https://drive.google.com/file/d/1WGuYTwbDxS-HWBgLgwTlTi3_8T_lz37J/view?usp=sharing" target="_blank">Resume</a>
+    </nav>
+  </div>
+
+  <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+
+        function toggleMenu() {
+            const overlay = document.getElementById("overlay");
+            const sideMenu = document.getElementById("sideMenu");
+            const body = document.body;
+            
+            sideMenu.classList.toggle("active");
+            overlay.classList.toggle("active");
+            body.classList.toggle("menu-open");
+        }
+  </script>
+    
+</body>
+</html>
+
+
+
+<!-- video contrainer taken from UMGPT with the prompt, "How can I connect my video to the html and allow users to pause and play it?" UMGPT. (2025). UMGPT ( GPT-4.1 August 25th version) [Large language model]. -->
+<!-- For the navigation menu taken from UMGPT with the prompt, "How can I create a navigation menu for a website and mobile design?" UMGPT. (2025). UMGPT ( GPT-4.1 August 25th version) [Large language model]. -->
+
+       

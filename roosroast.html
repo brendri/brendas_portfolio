@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- From w3schools.com -->
+    <title>RoosRoast Coffee Project</title>
+</head>
+<body>
+  <header>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class = "container-header">
+      <div class = "logo">
+        <a href = "main.html"><img src="imgs/logo.jpg" alt="Brenda's initials B.E Logo"></a>
+      </div>
+      <nav class = "nav">
+        <ul>
+          <li><a href = "main.html">Work</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a href = "https://drive.google.com/file/d/1WGuYTwbDxS-HWBgLgwTlTi3_8T_lz37J/view?usp=sharing" target="_blank">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Mobile hamburger icon-->
+  <button class = "icon" onclick = "toggleMenu()" aria-label="Toggle navigation menu">
+    <i class="fa fa-bars"></i>
+  </button>
+
+  <main id="main">
+    <!-- Main content goes here -->
+     <section class = "project-header">
+        <div class = "project-wrapper">
+            <div class = "project-content">
+                <div class = "project-image">
+                    <img src="imgs/header-RR.png" alt="RoosRoast Coffee logo">
+                </div>
+                <h1> <span class="project3-name">RoosRoast Coffee</span>: Mirroring the vibrant community-focused experience to online shopping</h1>
+                <div class = "detail-grid">
+                <div class = "detail-item">
+                    <h3>Discipline</h3>
+                    <p>Interaction Design, Product Design</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Timeline</h3>
+                    <p>March - April 2024</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Context</h3>
+                    <p>Project for SI 311 @UMich</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Role</h3>
+                    <p>UX Researcher & Designer</p>
+                </div>
+                <div class = "detail-item">
+                    <h3>Team</h3>
+                    <ul class ="team-list">
+                        <li>Imani Ahmad</li>
+                    </ul>
+                </div>
+                <div class = "detail-item">
+                    <h3>Tools</h3>
+                    <p>Figma</p>
+                </div>
+            </div>
+        </div>
+        </div>
+     </section>
+     <section class = "summary">
+        <div class = "summary-content">
+            <h2>Summary</h2>
+            <div class = "summary-text">
+                <h3>About RoosRoast Coffee</h3>
+                <p>RoosRoast is an eclectic coffee shop and roasting company that prides itself in its dedication to serving and enriching the local Ann Arbor community.</p>
+
+                <h3>Problem</h3>
+                <p>The RoosRoast website struggles to reflect the vibrant, community-focused personality of the shop, with underemphasized subscription services, inconsistent branding, and a lack of engaging features. Additionally, unclear distinctions between order types, disconnected transaction systems, and missing product highlights like tea and low-sugar options hinder usability and customer engagement.</p>
+
+                <h3>Our Solution</h3>
+                <p>To address this, we will implement product categorization/hierarchy, personalize the shopping experience, and emphasize subscription features to encourage user interaction.</p>
+            </div>
+        </div>
+     </section>
+     <section class = "investigation">
+        <div class = "investigation-title">
+            <h2>Investigating the Problem</h2>
+            <div class = "investigation-content">
+                <h3><span class = "project3-name">Started with an Interview Analysis</span></h3>
+                <div class = "investigation-text">
+                    <p>I conducted a competitive review between three different coffee shops, analyzing their subscription features to identify key takeaways and design considerations for enhancing RoosRoast's subscription experience. </p><br>
+
+                    <p>These included clearly distinguishing subscriptions from single-sales, providing easy options for type, frequency, and grind that are editable, displaying subscription contents with previews and pricing, placing a subscription tab on the menu for visibility, allowing personalized pricing, and adding a section to explain the subscription breakdown and purchasing steps. </p>
+
+                </div>
+                <div class = "com-image">
+                    <img src="imgs/com_img.png" alt="Competitive Analysis of Subscription Page">   
+                </div>
+            </div>
+        </div>
+        <div class = "investigation-content">
+                <h3><span class = "project3-name">Baymard Institute</span></h3>
+                <div class = "investigation-text">
+                    <p>Throughout my research, I leaned on the Baymard Institute as a critical resource for data-driven insights and usability guidelines to optimize RoosRoast's eCommerce experience. I applied their recommendations to key areas of the website to enhance usability and efficiency:</p>
+                    <ul>
+                        <li><strong>Homepage:</strong> Implemented clear, full-scope links for better navigation and visibility (Ref. #958).</li>
+                        <li><strong>Shopping Cart:</strong> Designed the cart to support users who use it as both a comparison and shopping tool (Ref. #620).</li>
+                        <li><strong>Checkout:</strong> Provided a clear step-by-step visual guide for the checkout process (Ref. #611).</li>
+                        <li><strong>Product Page:</strong> Styled the "Add to Cart" button prominently, ensuring it stood out as the primary action (Ref. #791).</li>
+                    </ul>
+                </div>
+        </div>
+     </section>
+      <section class = "shape-design">
+        <div class = "shape-title">
+            <h2>Shaping the Design</h2>
+            <div class = "shape-content">
+                <h3><span class = "project3-name">Card Sorting</span></h3>
+                <div class = "shape-text">
+                    <p>After collecting all the data, a card sorting diagram of the navigation was created and used for quick iteration, which was later transformed into more detailed digital versions with interactions. The card sorting diagram helped outline the most intuitive grouping and hierarchy for the navigation, ensuring the final design aligned with user expectations and facilitated easy access to key content.
+                    </p>
+                </div>
+                <div class = "diagram-image">
+                    <img src="imgs/dia_img.png" alt="RoosRoast card sorting diagram">
+                </div>
+            </div>
+            <div class = "shape-content">
+                <h3><span class = "project3-name">Lo-Fi Wireframes</span></h3>
+                <div class = "shape-text">
+                    <p>Ideas and flows were transitioned into Figma as a low-fidelity version. Throughout the development process, feedback from peers highlighted details about color usage, shaping the design to align with accessibility standards and aesthetic preferences while refining the overall user experience</p>
+                </div>
+                <div class = "lofi-images1">
+                    <img src="imgs/lofi-img.png" alt="Mobile Low Fidelity Wireframe of RoosRoast Coffee">
+                </div>
+            </div>
+            <div class = "shape-content">
+                <h3><span class = "project3-name">Design System</span></h3>
+                <div class = "shape-text">
+                    <p>Upon completing and iterating on the low-fidelity wireframes, the design system for RoosRoast Coffee began taking shape by coordinating color contrasts with the existing RoosRoast website palette. The process focused on interactive elements designed to capture user attention, emphasizing key details like icons and controls.</p>
+                </div>
+                <div class = "style-image">
+                    <img src="imgs/style-guide.png" alt="RoosRoast Coffee style guide">
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class = "final-design">
+        <div class = "final-title">
+            <h2>Key Design Features</h2>
+            <div class = "final-content">
+                <h3><span class = "project3-name">Checkout Segmentation</span></h3>
+                <div class = "final-text">
+                    <p>Effortlessly guides checkout while showcasing RoosRoast's character through options and flow.</p>
+                </div>
+                <div class = "video-container">
+                    <video controls muted preload = "metadata" aria-label="RoosRoast High Fidelity Prototype for check out flow">
+                        <source src="vids/RR1.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RR1.mp4">Download the video here.</a>
+                    </video>
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project3-name">Quirks/ Personality</span></h3>
+                <div class = "final-text">
+                    <p>Showcases personality and charm effortlessly through its origin, flavor, and brewing tips.</p>
+                </div>
+                <div class = "video-container">
+                    <video controls muted preload = "metadata" aria-label="RoosRoast High Fidelity Prototype for product page">
+                        <source src="vids/RR2.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RR2.mp4">Download the video here.</a>
+                    </video>
+                </div>
+            </div>
+            <div class = "final-content">
+                <h3><span class = "project3-name">Shopping Cart</span></h3>
+                <div class = "final-text">
+                    <p>With intuitive features, the shopping cart makes managing selected items and completing transactions straightforward and hassle-free.</p>
+                </div>
+                <div class = "video-container">
+                    <video controls muted preload = "metadata" aria-label="RoosRoast High Fidelity Prototype for shopping cart">
+                        <source src="vids/RR3.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RR3.mp4">Download the video here.</a>
+                    </video>
+                </div>  
+            </div>                         
+        </div>
+      </section>
+      <section class = "final-prototype">
+        <div class = "final-title">
+            <h2>Desktop Designs</h2>
+            <div class = "final-content">
+                <div class = "video-container1">
+                    <video controls muted preload = "metadata" aria-label="RoosRoast Coffee desktop homepage prototype">
+                        <source src="vids/RRD1.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RRD1.mp4">Download the video here.</a>
+                    </video>
+                </div>
+            </div>
+            <div class = "final-content">
+                <div class = "video-container1">
+                    <video controls muted preload = "metadata" aria-label="RoosRoast Coffee desktop shopping cart prototype">
+                        <source src="vids/RRD2.mp4" type="video/mp4">
+                        Your browser does not support the video tag. <a href ="vids/RRD2.mp4">Download the video here.</a>
+                    </video>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class = "learnings">
+        <div class = "learning-title">
+            <h2>Learnings</h2>
+            <div class = "learning-content">
+                <p> <strong>Balancing Creativity</strong></p>
+                <p>When collaborating with a company that values creativity and storytelling, it's essential to focus on the details observed during visits to their shops while balancing those insights with UX design principles and product management guidelines.</p><br>
+
+                <p><strong>Evolution of User Insights</strong></p>
+                <p>I gained valuable insights into eCommerce and how it evolves daily through user research and understanding.</p>
+            </div>
+        </div> 
+      </section>
+      <section class = "more-projects">
+            <h2>You may also like..</h2>
+            <div class = "more-projects-grid">
+                <a href = "racksight.html" class = "more-project-card"> 
+                    <img src="imgs/header-RS.png" alt = "RackSight Thumbnail" class = "more-project-image">
+                </a>
+                <a href = "evendoor.html" class = "more-project-card"> 
+                    <img src="imgs/header-ED.png" alt = "EvenDoor Thumbnail" class = "more-project-image"> 
+                </a>
+            </div>
+      </section>
+  </main>
+
+  <footer>
+    <div class = "footer-container">
+
+      <div class = "footer-text">
+        <p>Let's stitch our vision together!</p>
+      </div>
+
+      <div class = "footer-year">
+        <p>Designed by Brenda Esquivel • <span id="year"></span></p>
+      </div>
+
+      <div class = "social-media">
+        <!--LinkedIn-->
+        <a href="www.linkedin.com/in/brenda-esquivel-rivera-4b8a35223" target="_blank" aria-label="LinkedIn" class="fa fa-linkedin-square"></a>
+        <!--Gmail-->
+        <a href="https://mail.google.com/mail/u/0/#search/brendri%40umich.edu" target="_blank" aria-label="Gmail" class="fa fa-envelope"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Menu overlay-->
+  <div class = "overlay" id = "overlay" onclick = "toggleMenu()">
+  </div>
+
+  <!--Side menu-->
+  <div class = "side-menu" id = "sideMenu">
+    <button class = "close-btn" onclick = "toggleMenu()" aria-label="Close navigation menu">
+      <i class="fa fa-times"></i>
+    </button>
+    <nav>
+      <a href = "main.html">Work</a>
+      <a href = "about.html">About</a>
+      <a href = "https://drive.google.com/file/d/1WGuYTwbDxS-HWBgLgwTlTi3_8T_lz37J/view?usp=sharing" target="_blank">Resume</a>
+    </nav>
+  </div>
+
+  <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+
+        function toggleMenu() {
+            const overlay = document.getElementById("overlay");
+            const sideMenu = document.getElementById("sideMenu");
+            const body = document.body;
+            
+            sideMenu.classList.toggle("active");
+            overlay.classList.toggle("active");
+            body.classList.toggle("menu-open");
+        }
+  </script>
+    
+</body>
+</html>
+
+
+
+<!-- video contrainer taken from UMGPT with the prompt, "How can I connect my video to the html and allow users to pause and play it? Also muting it." UMGPT. (2025). UMGPT ( GPT-4.1 August 25th version) [Large language model]. -->
+
+<!-- For the navigation menu taken from UMGPT with the prompt, "How can I create a navigation menu for a website and mobile design?" UMGPT. (2025). UMGPT ( GPT-4.1 August 25th version) [Large language model]. -->
