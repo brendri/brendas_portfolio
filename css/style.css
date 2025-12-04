@@ -188,11 +188,11 @@ body.menu-open .close-btn {
 
 .side-menu nav a:hover,
 .side-menu nav a:focus {
-    color: #E2725B;
+    color: #304B3F;
 }
 
 .side-menu nav a.active {
-    color: #E2725B;
+    color: #304B3F;
 }
 
 .side-menu nav a.active::before {
@@ -202,7 +202,7 @@ body.menu-open .close-btn {
     top: 0;
     bottom: 0;
     width: 4px;
-    background-color: #E2725B;
+    background-color: #304B3F;
 }
 
 /* Header content styles */
@@ -249,7 +249,7 @@ body.menu-open .close-btn {
 
 /* Title color style */
 .title-color {
-    color: #E2725B;
+    color: #304B3F;
     font-weight: 600;
 }
 
@@ -390,7 +390,7 @@ footer {
 }
 
 .social-media a:hover {
-    color: #E2725B;
+    color: #304B3F;
 }
 
 /* Project Pages styles */
@@ -765,6 +765,8 @@ h2 {
 .about-header .me-image {
     width: 100%;
     max-width: 250px;
+    rotate: 90deg;
+    margin-bottom: 30px;
 }
 
 .about-header .me-image img {
@@ -820,8 +822,6 @@ h2 {
     height: auto;
     border-radius: 20px;
     display: block;
-    rotate: 90deg;
-    margin-bottom: 30px;
 }
 
 .more-about-sub-title {
@@ -1029,13 +1029,13 @@ h2 {
 }
 
 .wolverine-text a {
-    color: #E2725B;
+    color: #304B3F;
     font-weight: 600;
     transition: color 0.3s ease;
         }
 
 .wolverine-text a:hover {
-    color: #d15a44;
+    color: #304B3F;
     text-decoration: underline;
 }
 
@@ -1084,11 +1084,11 @@ h2 {
     
     .nav a:hover,
     .nav a:focus {
-        color: #E2725B;
+        color: #304B3F;
     }
     
     .nav a.active {
-        color: #E2725B;
+        color: #304B3F;
     }
     
     .nav a.active::after {
@@ -1098,7 +1098,7 @@ h2 {
         left: 1rem;
         right: 1rem;
         height: 2px;
-        background-color: #E2725B;
+        background-color: #304B3F;
     }
     
     .icon {
@@ -1278,7 +1278,7 @@ h2 {
     }
 
     .visit-text a:hover {
-        color: #E2725B;
+        color: #304B3F;
         font-weight: 700;
     }
     
